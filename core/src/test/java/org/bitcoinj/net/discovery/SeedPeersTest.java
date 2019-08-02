@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.net.discovery;
+package org.digibytej.net.discovery;
 
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.params.MainNetParams;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.params.MainNetParams;
 import org.junit.Test;
 
 import java.net.InetSocketAddress;

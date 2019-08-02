@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.crypto;
+package org.digibytej.crypto;
 
 import org.junit.Test;
 

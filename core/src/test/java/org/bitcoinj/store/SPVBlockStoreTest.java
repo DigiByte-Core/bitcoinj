@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.store;
+package org.digibytej.store;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -26,15 +26,15 @@ import java.math.BigInteger;
 import java.util.Collections;
 import java.util.concurrent.TimeUnit;
 
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Block;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Sha256Hash;
-import org.bitcoinj.core.StoredBlock;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.params.UnitTestParams;
+import org.digibytej.core.Address;
+import org.digibytej.core.Block;
+import org.digibytej.core.ECKey;
+import org.digibytej.core.LegacyAddress;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.Sha256Hash;
+import org.digibytej.core.StoredBlock;
+import org.digibytej.core.Transaction;
+import org.digibytej.params.UnitTestParams;
 import org.junit.Before;
 import org.junit.Test;
 

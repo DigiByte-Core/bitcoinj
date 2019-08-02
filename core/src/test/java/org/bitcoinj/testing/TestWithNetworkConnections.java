@@ -15,20 +15,20 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.testing;
+package org.digibytej.testing;
 
-import org.bitcoinj.core.listeners.PeerDisconnectedEventListener;
-import org.bitcoinj.core.listeners.PreMessageReceivedEventListener;
-import org.bitcoinj.core.*;
-import org.bitcoinj.net.*;
-import org.bitcoinj.params.UnitTestParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.store.BlockStore;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.utils.Threading;
-import org.bitcoinj.wallet.KeyChainGroup;
-import org.bitcoinj.wallet.Wallet;
+import org.digibytej.core.listeners.PeerDisconnectedEventListener;
+import org.digibytej.core.listeners.PreMessageReceivedEventListener;
+import org.digibytej.core.*;
+import org.digibytej.net.*;
+import org.digibytej.params.UnitTestParams;
+import org.digibytej.script.Script;
+import org.digibytej.store.BlockStore;
+import org.digibytej.store.MemoryBlockStore;
+import org.digibytej.utils.BriefLogFormatter;
+import org.digibytej.utils.Threading;
+import org.digibytej.wallet.KeyChainGroup;
+import org.digibytej.wallet.Wallet;
 
 import com.google.common.util.concurrent.SettableFuture;
 

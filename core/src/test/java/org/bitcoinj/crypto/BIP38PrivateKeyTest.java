@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.crypto;
+package org.digibytej.crypto;
 
-import org.bitcoinj.core.AddressFormatException;
-import org.bitcoinj.core.Base58;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.crypto.BIP38PrivateKey.BadPassphraseException;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.TestNet3Params;
+import org.digibytej.core.AddressFormatException;
+import org.digibytej.core.Base58;
+import org.digibytej.core.ECKey;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.crypto.BIP38PrivateKey.BadPassphraseException;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.TestNet3Params;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;

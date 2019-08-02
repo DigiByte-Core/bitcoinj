@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.protocols.payments;
+package org.digibytej.protocols.payments;
 
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.crypto.X509Utils;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.params.UnitTestParams;
-import org.bitcoinj.protocols.payments.PaymentProtocol.Output;
-import org.bitcoinj.protocols.payments.PaymentProtocol.PkiVerificationData;
-import org.bitcoinj.protocols.payments.PaymentProtocolException.PkiVerificationException;
-import org.bitcoinj.script.ScriptBuilder;
-import org.bitcoinj.testing.FakeTxBuilder;
+import org.digibytej.core.Address;
+import org.digibytej.core.Coin;
+import org.digibytej.core.ECKey;
+import org.digibytej.core.LegacyAddress;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.Transaction;
+import org.digibytej.crypto.X509Utils;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.params.UnitTestParams;
+import org.digibytej.protocols.payments.PaymentProtocol.Output;
+import org.digibytej.protocols.payments.PaymentProtocol.PkiVerificationData;
+import org.digibytej.protocols.payments.PaymentProtocolException.PkiVerificationException;
+import org.digibytej.script.ScriptBuilder;
+import org.digibytej.testing.FakeTxBuilder;
 import org.bitcoin.protocols.payments.Protos;
 import org.bitcoin.protocols.payments.Protos.Payment;
 import org.bitcoin.protocols.payments.Protos.PaymentACK;

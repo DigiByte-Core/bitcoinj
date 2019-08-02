@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
-import org.bitcoinj.core.TransactionConfidence.*;
-import org.bitcoinj.crypto.TransactionSignature;
-import org.bitcoinj.params.*;
-import org.bitcoinj.script.*;
-import org.bitcoinj.testing.*;
+import org.digibytej.core.TransactionConfidence.*;
+import org.digibytej.crypto.TransactionSignature;
+import org.digibytej.params.*;
+import org.digibytej.script.*;
+import org.digibytej.testing.*;
 import org.easymock.*;
 import org.junit.*;
 
@@ -29,9 +29,9 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.math.BigInteger;
 import java.util.*;
-import static org.bitcoinj.core.Utils.HEX;
+import static org.digibytej.core.Utils.HEX;
 
-import static org.bitcoinj.core.Utils.uint32ToByteStreamLE;
+import static org.digibytej.core.Utils.uint32ToByteStreamLE;
 import static org.easymock.EasyMock.*;
 import static org.junit.Assert.*;
 

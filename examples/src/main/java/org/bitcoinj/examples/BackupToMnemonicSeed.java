@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Utils;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.wallet.DeterministicSeed;
-import org.bitcoinj.wallet.Wallet;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.Utils;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.script.Script;
+import org.digibytej.wallet.DeterministicSeed;
+import org.digibytej.wallet.Wallet;
 
 /**
  * The following example shows you how to create a deterministic seed from a hierarchical deterministic wallet represented as a mnemonic code.

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.tools;
+package org.digibytej.tools;
 
-import org.bitcoinj.core.*;
-import org.bitcoinj.core.listeners.PeerConnectedEventListener;
-import org.bitcoinj.core.listeners.PeerDisconnectedEventListener;
-import org.bitcoinj.kits.WalletAppKit;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.wallet.SendRequest;
-import org.bitcoinj.wallet.Wallet;
+import org.digibytej.core.*;
+import org.digibytej.core.listeners.PeerConnectedEventListener;
+import org.digibytej.core.listeners.PeerDisconnectedEventListener;
+import org.digibytej.kits.WalletAppKit;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.utils.BriefLogFormatter;
+import org.digibytej.wallet.SendRequest;
+import org.digibytej.wallet.Wallet;
 
 import java.io.File;
 import java.util.concurrent.ExecutionException;

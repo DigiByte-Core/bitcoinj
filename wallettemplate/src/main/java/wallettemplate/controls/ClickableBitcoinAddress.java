@@ -39,8 +39,8 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 
-import org.bitcoinj.core.Address;
-import org.bitcoinj.uri.BitcoinURI;
+import org.digibytej.core.Address;
+import org.digibytej.uri.BitcoinURI;
 
 import wallettemplate.Main;
 import wallettemplate.utils.GuiUtils;

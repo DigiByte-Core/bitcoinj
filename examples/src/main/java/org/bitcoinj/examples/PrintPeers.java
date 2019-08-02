@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
-import org.bitcoinj.core.listeners.PeerConnectedEventListener;
-import org.bitcoinj.core.listeners.PeerDisconnectedEventListener;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Peer;
-import org.bitcoinj.core.PeerAddress;
-import org.bitcoinj.core.VersionMessage;
-import org.bitcoinj.net.discovery.DnsDiscovery;
-import org.bitcoinj.net.discovery.PeerDiscoveryException;
-import org.bitcoinj.net.NioClientManager;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.utils.BriefLogFormatter;
+import org.digibytej.core.listeners.PeerConnectedEventListener;
+import org.digibytej.core.listeners.PeerDisconnectedEventListener;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.Peer;
+import org.digibytej.core.PeerAddress;
+import org.digibytej.core.VersionMessage;
+import org.digibytej.net.discovery.DnsDiscovery;
+import org.digibytej.net.discovery.PeerDiscoveryException;
+import org.digibytej.net.NioClientManager;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.utils.BriefLogFormatter;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.SettableFuture;

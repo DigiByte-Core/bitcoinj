@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.testing;
+package org.digibytej.testing;
 
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.WalletExtension;
+import org.digibytej.wallet.Wallet;
+import org.digibytej.wallet.WalletExtension;
 
 import java.util.Arrays;
 

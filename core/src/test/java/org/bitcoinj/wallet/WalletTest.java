@@ -15,55 +15,55 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.wallet;
+package org.digibytej.wallet;
 
-import org.bitcoinj.core.listeners.TransactionConfidenceEventListener;
-import org.bitcoinj.core.AbstractBlockChain;
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Block;
-import org.bitcoinj.core.BlockChain;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.InsufficientMoneyException;
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.core.PeerAddress;
-import org.bitcoinj.core.SegwitAddress;
-import org.bitcoinj.core.Sha256Hash;
-import org.bitcoinj.core.StoredBlock;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.TransactionConfidence;
-import org.bitcoinj.core.TransactionInput;
-import org.bitcoinj.core.TransactionOutPoint;
-import org.bitcoinj.core.TransactionOutput;
-import org.bitcoinj.core.Utils;
-import org.bitcoinj.core.VerificationException;
-import org.bitcoinj.core.TransactionConfidence.ConfidenceType;
-import org.bitcoinj.crypto.*;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.script.ScriptBuilder;
-import org.bitcoinj.script.ScriptChunk;
-import org.bitcoinj.script.ScriptPattern;
-import org.bitcoinj.signers.TransactionSigner;
-import org.bitcoinj.store.BlockStoreException;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.testing.*;
-import org.bitcoinj.utils.ExchangeRate;
-import org.bitcoinj.utils.Fiat;
-import org.bitcoinj.utils.Threading;
-import org.bitcoinj.wallet.Wallet.BalanceType;
-import org.bitcoinj.wallet.WalletTransaction.Pool;
-import org.bitcoinj.wallet.listeners.KeyChainEventListener;
-import org.bitcoinj.wallet.listeners.WalletChangeEventListener;
-import org.bitcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
-import org.bitcoinj.wallet.listeners.WalletCoinsSentEventListener;
+import org.digibytej.core.listeners.TransactionConfidenceEventListener;
+import org.digibytej.core.AbstractBlockChain;
+import org.digibytej.core.Address;
+import org.digibytej.core.Block;
+import org.digibytej.core.BlockChain;
+import org.digibytej.core.Coin;
+import org.digibytej.core.ECKey;
+import org.digibytej.core.InsufficientMoneyException;
+import org.digibytej.core.LegacyAddress;
+import org.digibytej.core.PeerAddress;
+import org.digibytej.core.SegwitAddress;
+import org.digibytej.core.Sha256Hash;
+import org.digibytej.core.StoredBlock;
+import org.digibytej.core.Transaction;
+import org.digibytej.core.TransactionConfidence;
+import org.digibytej.core.TransactionInput;
+import org.digibytej.core.TransactionOutPoint;
+import org.digibytej.core.TransactionOutput;
+import org.digibytej.core.Utils;
+import org.digibytej.core.VerificationException;
+import org.digibytej.core.TransactionConfidence.ConfidenceType;
+import org.digibytej.crypto.*;
+import org.digibytej.script.Script;
+import org.digibytej.script.ScriptBuilder;
+import org.digibytej.script.ScriptChunk;
+import org.digibytej.script.ScriptPattern;
+import org.digibytej.signers.TransactionSigner;
+import org.digibytej.store.BlockStoreException;
+import org.digibytej.store.MemoryBlockStore;
+import org.digibytej.testing.*;
+import org.digibytej.utils.ExchangeRate;
+import org.digibytej.utils.Fiat;
+import org.digibytej.utils.Threading;
+import org.digibytej.wallet.Wallet.BalanceType;
+import org.digibytej.wallet.WalletTransaction.Pool;
+import org.digibytej.wallet.listeners.KeyChainEventListener;
+import org.digibytej.wallet.listeners.WalletChangeEventListener;
+import org.digibytej.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.digibytej.wallet.listeners.WalletCoinsSentEventListener;
 import org.easymock.EasyMock;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.ListenableFuture;
 
-import org.bitcoinj.wallet.KeyChain.KeyPurpose;
-import org.bitcoinj.wallet.Protos.Wallet.EncryptionType;
+import org.digibytej.wallet.KeyChain.KeyPurpose;
+import org.digibytej.wallet.Protos.Wallet.EncryptionType;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -81,9 +81,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static org.bitcoinj.core.Coin.*;
-import static org.bitcoinj.core.Utils.HEX;
-import static org.bitcoinj.testing.FakeTxBuilder.*;
+import static org.digibytej.core.Coin.*;
+import static org.digibytej.core.Utils.HEX;
+import static org.digibytej.testing.FakeTxBuilder.*;
 import static org.easymock.EasyMock.createMock;
 import static org.easymock.EasyMock.replay;
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -1774,7 +1774,7 @@ public class WalletTest extends TestWithWallet {
     @Test
     public void autosaveImmediate() throws Exception {
         // Test that the wallet will save itself automatically when it changes.
-        File f = File.createTempFile("bitcoinj-unit-test", null);
+        File f = File.createTempFile("digibytej-unit-test", null);
         Sha256Hash hash1 = Sha256Hash.of(f);
         // Start with zero delay and ensure the wallet file changes after adding a key.
         wallet.autosaveToFile(f, 0, TimeUnit.SECONDS, null);
@@ -1796,7 +1796,7 @@ public class WalletTest extends TestWithWallet {
         // an auto-save cycle of 1 second.
         final File[] results = new File[2];
         final CountDownLatch latch = new CountDownLatch(3);
-        File f = File.createTempFile("bitcoinj-unit-test", null);
+        File f = File.createTempFile("digibytej-unit-test", null);
         Sha256Hash hash1 = Sha256Hash.of(f);
         wallet.autosaveToFile(f, 1, TimeUnit.SECONDS,
                 new WalletFiles.Listener() {

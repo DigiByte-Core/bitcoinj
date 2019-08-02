@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import nl.jqno.equalsverifier.EqualsVerifier;
 import nl.jqno.equalsverifier.Warning;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.TestNet3Params;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.TestNet3Params;
 import org.easymock.EasyMockRunner;
 import org.easymock.Mock;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static org.bitcoinj.core.Utils.HEX;
+import static org.digibytej.core.Utils.HEX;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotSame;
 import static org.easymock.EasyMock.expect;

@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.UnitTestParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.store.BlockStore;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.wallet.Wallet;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.UnitTestParams;
+import org.digibytej.script.Script;
+import org.digibytej.store.BlockStore;
+import org.digibytej.store.MemoryBlockStore;
+import org.digibytej.wallet.Wallet;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -30,10 +30,10 @@ import java.io.ByteArrayOutputStream;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 
-import static org.bitcoinj.core.Coin.*;
-import static org.bitcoinj.core.Utils.HEX;
-import static org.bitcoinj.testing.FakeTxBuilder.createFakeBlock;
-import static org.bitcoinj.testing.FakeTxBuilder.createFakeTx;
+import static org.digibytej.core.Coin.*;
+import static org.digibytej.core.Utils.HEX;
+import static org.digibytej.testing.FakeTxBuilder.createFakeBlock;
+import static org.digibytej.testing.FakeTxBuilder.createFakeTx;
 import static org.junit.Assert.*;
 
 public class ParseByteCacheTest {

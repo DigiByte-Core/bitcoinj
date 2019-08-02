@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
-import org.bitcoinj.core.listeners.DownloadProgressTracker;
-import org.bitcoinj.core.*;
-import org.bitcoinj.net.discovery.DnsDiscovery;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.store.SPVBlockStore;
-import org.bitcoinj.wallet.DeterministicSeed;
-import org.bitcoinj.wallet.KeyChainGroupStructure;
-import org.bitcoinj.wallet.Wallet;
+import org.digibytej.core.listeners.DownloadProgressTracker;
+import org.digibytej.core.*;
+import org.digibytej.net.discovery.DnsDiscovery;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.script.Script;
+import org.digibytej.store.SPVBlockStore;
+import org.digibytej.wallet.DeterministicSeed;
+import org.digibytej.wallet.KeyChainGroupStructure;
+import org.digibytej.wallet.Wallet;
 
 import java.io.File;
 

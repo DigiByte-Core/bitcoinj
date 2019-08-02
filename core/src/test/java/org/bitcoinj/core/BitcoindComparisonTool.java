@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import com.google.common.base.*;
 import com.google.common.collect.*;
 import com.google.common.util.concurrent.*;
-import org.bitcoinj.core.listeners.*;
-import org.bitcoinj.net.*;
-import org.bitcoinj.params.*;
-import org.bitcoinj.store.*;
-import org.bitcoinj.utils.*;
+import org.digibytej.core.listeners.*;
+import org.digibytej.net.*;
+import org.digibytej.params.*;
+import org.digibytej.store.*;
+import org.digibytej.utils.*;
 import org.slf4j.*;
 
 import java.io.*;
@@ -301,7 +301,7 @@ public class BitcoindComparisonTool {
                 bitcoind.ping().get();
                 if (!chain.getChainHead().getHeader().getHash().equals(bitcoindChainHead)) {
                     rulesSinceFirstFail++;
-                    log.error("ERROR: bitcoind and bitcoinj acceptance differs on block \"" + block.ruleName + "\"");
+                    log.error("ERROR: bitcoind and digibytej acceptance differs on block \"" + block.ruleName + "\"");
                 }
                 if (block.sendOnce)
                     preloadedBlocks.remove(nextBlock.getHash());

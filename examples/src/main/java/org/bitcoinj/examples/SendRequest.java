@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.MoreExecutors;
 
-import org.bitcoinj.core.*;
-import org.bitcoinj.kits.WalletAppKit;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.Wallet.BalanceType;
+import org.digibytej.core.*;
+import org.digibytej.kits.WalletAppKit;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.wallet.Wallet;
+import org.digibytej.wallet.Wallet.BalanceType;
 
 import java.io.File;
 

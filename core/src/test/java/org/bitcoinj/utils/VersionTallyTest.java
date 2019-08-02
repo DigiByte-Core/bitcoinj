@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.utils;
+package org.digibytej.utils;
 
-import org.bitcoinj.core.BlockChain;
-import org.bitcoinj.core.Context;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.StoredBlock;
-import org.bitcoinj.params.UnitTestParams;
-import org.bitcoinj.store.BlockStore;
-import org.bitcoinj.store.BlockStoreException;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.testing.FakeTxBuilder;
+import org.digibytej.core.BlockChain;
+import org.digibytej.core.Context;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.StoredBlock;
+import org.digibytej.params.UnitTestParams;
+import org.digibytej.store.BlockStore;
+import org.digibytej.store.BlockStoreException;
+import org.digibytej.store.MemoryBlockStore;
+import org.digibytej.testing.FakeTxBuilder;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Before;

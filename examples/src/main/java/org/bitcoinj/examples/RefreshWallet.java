@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
-import org.bitcoinj.core.*;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.store.BlockStore;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.digibytej.core.*;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.store.BlockStore;
+import org.digibytej.store.MemoryBlockStore;
+import org.digibytej.wallet.Wallet;
+import org.digibytej.wallet.listeners.WalletCoinsReceivedEventListener;
 
 import java.io.File;
 

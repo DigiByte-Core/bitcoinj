@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.store;
+package org.digibytej.store;
 
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Context;
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.StoredBlock;
-import org.bitcoinj.params.*;
+import org.digibytej.core.Address;
+import org.digibytej.core.Context;
+import org.digibytej.core.LegacyAddress;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.StoredBlock;
+import org.digibytej.params.*;
 import org.junit.*;
 
 import java.io.*;

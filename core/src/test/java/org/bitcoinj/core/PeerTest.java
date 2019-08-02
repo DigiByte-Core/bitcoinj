@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import com.google.common.collect.*;
-import org.bitcoinj.core.listeners.*;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.testing.FakeTxBuilder;
-import org.bitcoinj.testing.InboundMessageQueuer;
-import org.bitcoinj.testing.TestWithNetworkConnections;
-import org.bitcoinj.utils.Threading;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.digibytej.core.listeners.*;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.script.Script;
+import org.digibytej.testing.FakeTxBuilder;
+import org.digibytej.testing.InboundMessageQueuer;
+import org.digibytej.testing.TestWithNetworkConnections;
+import org.digibytej.utils.Threading;
+import org.digibytej.wallet.Wallet;
+import org.digibytej.wallet.listeners.WalletCoinsReceivedEventListener;
 
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.SettableFuture;
@@ -54,8 +54,8 @@ import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static org.bitcoinj.core.Coin.*;
-import static org.bitcoinj.testing.FakeTxBuilder.*;
+import static org.digibytej.core.Coin.*;
+import static org.digibytej.testing.FakeTxBuilder.*;
 import static org.junit.Assert.*;
 
 @RunWith(value = Parameterized.class)

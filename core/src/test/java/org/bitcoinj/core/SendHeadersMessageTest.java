@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
-import org.bitcoinj.params.RegTestParams;
+import org.digibytej.params.RegTestParams;
 import org.junit.Test;
 
 import java.nio.ByteBuffer;
 
-import static org.bitcoinj.core.Utils.HEX;
+import static org.digibytej.core.Utils.HEX;
 import static org.junit.Assert.assertTrue;
 
 public class SendHeadersMessageTest {

@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
-import org.bitcoinj.core.listeners.PeerConnectedEventListener;
-import org.bitcoinj.core.listeners.PeerDisconnectedEventListener;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Peer;
-import org.bitcoinj.core.PeerGroup;
-import org.bitcoinj.net.discovery.DnsDiscovery;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.utils.BriefLogFormatter;
+import org.digibytej.core.listeners.PeerConnectedEventListener;
+import org.digibytej.core.listeners.PeerDisconnectedEventListener;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.Peer;
+import org.digibytej.core.PeerGroup;
+import org.digibytej.net.discovery.DnsDiscovery;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.utils.BriefLogFormatter;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.utils;
+package org.digibytej.utils;
 
-import static org.bitcoinj.utils.Fiat.parseFiat;
+import static org.digibytej.utils.Fiat.parseFiat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

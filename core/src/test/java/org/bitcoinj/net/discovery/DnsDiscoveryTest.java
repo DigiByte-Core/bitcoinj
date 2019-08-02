@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.net.discovery;
+package org.digibytej.net.discovery;
 
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
@@ -22,7 +22,7 @@ import static org.junit.Assert.assertTrue;
 import java.net.InetSocketAddress;
 import java.util.concurrent.TimeUnit;
 
-import org.bitcoinj.params.MainNetParams;
+import org.digibytej.params.MainNetParams;
 import org.junit.Test;
 
 public class DnsDiscoveryTest {

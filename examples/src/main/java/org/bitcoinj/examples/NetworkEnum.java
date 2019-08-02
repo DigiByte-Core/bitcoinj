@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.RegTestParams;
-import org.bitcoinj.params.TestNet3Params;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.RegTestParams;
+import org.digibytej.params.TestNet3Params;
 
 public enum NetworkEnum {
     MAIN,

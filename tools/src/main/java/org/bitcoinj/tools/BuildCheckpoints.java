@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.tools;
+package org.digibytej.tools;
 
-import org.bitcoinj.core.listeners.NewBestBlockListener;
-import org.bitcoinj.core.*;
-import org.bitcoinj.net.discovery.DnsDiscovery;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.RegTestParams;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.store.BlockStore;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.utils.Threading;
+import org.digibytej.core.listeners.NewBestBlockListener;
+import org.digibytej.core.*;
+import org.digibytej.net.discovery.DnsDiscovery;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.RegTestParams;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.store.BlockStore;
+import org.digibytej.store.MemoryBlockStore;
+import org.digibytej.utils.BriefLogFormatter;
+import org.digibytej.utils.Threading;
 import com.google.common.io.Resources;
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
@@ -115,16 +115,8 @@ public class BuildCheckpoints {
             }
         } else if (networkHasDnsSeeds) {
             // for PROD and TEST use a peer group discovered with dns
-            peerGroup.setUserAgent("PeerMonitor", "1.0");
-            peerGroup.setMaxConnections(20);
-            peerGroup.addPeerDiscovery(new DnsDiscovery(params));
-            peerGroup.start();
-
-            // Connect to at least 4 peers because some may not support download
-            Future<List<Peer>> future = peerGroup.waitForPeers(4);
-            System.out.println("Connecting to " + params.getId() + ", timeout 20 seconds...");
-            // throw timeout exception if we can't get peers
-            future.get(20, SECONDS);
+            ipAddress = InetAddress.getLocalHost();
+            startPeerGroup(peerGroup, ipAddress);
         } else {
             // try localhost
             ipAddress = InetAddress.getLocalHost();

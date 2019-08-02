@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.params.UnitTestParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.store.BlockStore;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.testing.FakeTxBuilder;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.Wallet.BalanceType;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.params.UnitTestParams;
+import org.digibytej.script.Script;
+import org.digibytej.store.BlockStore;
+import org.digibytej.store.MemoryBlockStore;
+import org.digibytej.testing.FakeTxBuilder;
+import org.digibytej.utils.BriefLogFormatter;
+import org.digibytej.wallet.Wallet;
+import org.digibytej.wallet.Wallet.BalanceType;
 
 import com.google.common.util.concurrent.ListenableFuture;
 import org.junit.rules.ExpectedException;
@@ -39,9 +39,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import static org.bitcoinj.core.Coin.*;
-import static org.bitcoinj.testing.FakeTxBuilder.createFakeBlock;
-import static org.bitcoinj.testing.FakeTxBuilder.createFakeTx;
+import static org.digibytej.core.Coin.*;
+import static org.digibytej.testing.FakeTxBuilder.createFakeBlock;
+import static org.digibytej.testing.FakeTxBuilder.createFakeTx;
 import static org.junit.Assert.*;
 
 // Handling of chain splits/reorgs are in ChainSplitTests.

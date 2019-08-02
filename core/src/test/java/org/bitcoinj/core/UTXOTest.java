@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import static org.junit.Assert.assertEquals;
 
@@ -24,7 +24,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import org.bitcoinj.script.ScriptBuilder;
+import org.digibytej.script.ScriptBuilder;
 import org.junit.Test;
 
 public class UTXOTest {

@@ -18,5 +18,5 @@ script:
 
 notifications:
   irc:
-    channels: "irc.freenode.net#bitcoinj"
+    channels: "irc.freenode.net#digibytej"
     skip_join: true

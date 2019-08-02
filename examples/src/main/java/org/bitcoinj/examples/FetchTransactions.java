@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
-import org.bitcoinj.core.*;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.store.BlockStore;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.utils.BriefLogFormatter;
+import org.digibytej.core.*;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.store.BlockStore;
+import org.digibytej.store.MemoryBlockStore;
+import org.digibytej.utils.BriefLogFormatter;
 import com.google.common.util.concurrent.ListenableFuture;
 
 import java.net.InetAddress;

@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
-import org.bitcoinj.core.ECKey.ECDSASignature;
-import org.bitcoinj.crypto.EncryptedData;
-import org.bitcoinj.crypto.KeyCrypter;
-import org.bitcoinj.crypto.KeyCrypterScrypt;
-import org.bitcoinj.crypto.TransactionSignature;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.params.UnitTestParams;
+import org.digibytej.core.ECKey.ECDSASignature;
+import org.digibytej.crypto.EncryptedData;
+import org.digibytej.crypto.KeyCrypter;
+import org.digibytej.crypto.KeyCrypterScrypt;
+import org.digibytej.crypto.TransactionSignature;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.params.UnitTestParams;
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
@@ -46,8 +46,8 @@ import java.util.Random;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Executors;
 
-import static org.bitcoinj.core.Utils.HEX;
-import static org.bitcoinj.core.Utils.reverseBytes;
+import static org.digibytej.core.Utils.HEX;
+import static org.digibytej.core.Utils.reverseBytes;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static org.junit.Assert.*;
 

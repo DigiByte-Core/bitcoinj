@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -25,28 +25,28 @@ import java.util.EnumSet;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.SignatureDecodeException;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.TransactionInput;
-import org.bitcoinj.core.TransactionOutput;
-import org.bitcoinj.core.Utils;
-import org.bitcoinj.core.VerificationException;
-import org.bitcoinj.crypto.TransactionSignature;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.script.ScriptBuilder;
-import org.bitcoinj.script.ScriptChunk;
-import org.bitcoinj.script.ScriptException;
+import org.digibytej.core.LegacyAddress;
+import org.digibytej.core.Coin;
+import org.digibytej.core.ECKey;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.SignatureDecodeException;
+import org.digibytej.core.Transaction;
+import org.digibytej.core.TransactionInput;
+import org.digibytej.core.TransactionOutput;
+import org.digibytej.core.Utils;
+import org.digibytej.core.VerificationException;
+import org.digibytej.crypto.TransactionSignature;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.script.Script;
+import org.digibytej.script.ScriptBuilder;
+import org.digibytej.script.ScriptChunk;
+import org.digibytej.script.ScriptException;
 
-import static org.bitcoinj.script.ScriptOpCodes.getOpCodeName;
-import org.bitcoinj.signers.LocalTransactionSigner;
-import org.bitcoinj.signers.TransactionSigner.ProposedTransaction;
-import org.bitcoinj.wallet.KeyBag;
-import org.bitcoinj.wallet.RedeemData;
+import static org.digibytej.script.ScriptOpCodes.getOpCodeName;
+import org.digibytej.signers.LocalTransactionSigner;
+import org.digibytej.signers.TransactionSigner.ProposedTransaction;
+import org.digibytej.wallet.KeyBag;
+import org.digibytej.wallet.RedeemData;
 
 /**
  * Test case generator for transactions with low-S and high-S signatures, to

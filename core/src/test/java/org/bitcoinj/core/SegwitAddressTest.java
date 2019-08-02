@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -28,12 +28,12 @@ import java.util.Locale;
 
 import nl.jqno.equalsverifier.EqualsVerifier;
 import nl.jqno.equalsverifier.Warning;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.script.Script.ScriptType;
-import org.bitcoinj.script.ScriptBuilder;
-import org.bitcoinj.script.ScriptPattern;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.script.Script;
+import org.digibytej.script.Script.ScriptType;
+import org.digibytej.script.ScriptBuilder;
+import org.digibytej.script.ScriptPattern;
 import org.junit.Test;
 
 import com.google.common.base.MoreObjects;

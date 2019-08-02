@@ -15,20 +15,20 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.protocols.payments;
+package org.digibytej.protocols.payments;
 
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.Context;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.TransactionInput;
-import org.bitcoinj.core.TransactionOutput;
-import org.bitcoinj.crypto.TrustStoreLoader;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.TestNet3Params;
+import org.digibytej.core.Address;
+import org.digibytej.core.Coin;
+import org.digibytej.core.Context;
+import org.digibytej.core.ECKey;
+import org.digibytej.core.LegacyAddress;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.Transaction;
+import org.digibytej.core.TransactionInput;
+import org.digibytej.core.TransactionOutput;
+import org.digibytej.crypto.TrustStoreLoader;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.TestNet3Params;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.protobuf.ByteString;
 import org.bitcoin.protocols.payments.Protos;
@@ -41,7 +41,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 
-import static org.bitcoinj.core.Coin.COIN;
+import static org.digibytej.core.Coin.COIN;
 import static org.junit.Assert.*;
 
 public class PaymentSessionTest {

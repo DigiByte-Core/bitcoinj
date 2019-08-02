@@ -19,9 +19,9 @@ package wallettemplate;
 import javafx.beans.binding.Binding;
 import javafx.beans.binding.Bindings;
 import javafx.beans.value.ObservableValue;
-import org.bitcoinj.core.listeners.DownloadProgressTracker;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.utils.MonetaryFormat;
+import org.digibytej.core.listeners.DownloadProgressTracker;
+import org.digibytej.core.Coin;
+import org.digibytej.utils.MonetaryFormat;
 import javafx.animation.FadeTransition;
 import javafx.animation.ParallelTransition;
 import javafx.animation.TranslateTransition;
@@ -50,7 +50,7 @@ public class MainController {
 
     private BitcoinUIModel model = new BitcoinUIModel();
     private NotificationBarPane.Item syncItem;
-    private static final MonetaryFormat MONETARY_FORMAT = MonetaryFormat.BTC.noCode();
+    private static final MonetaryFormat MONETARY_FORMAT = MonetaryFormat.DGB.noCode();
 
     // Called by FXMLLoader.
     public void initialize() {

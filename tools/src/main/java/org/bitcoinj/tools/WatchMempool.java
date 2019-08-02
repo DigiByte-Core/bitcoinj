@@ -15,21 +15,21 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.tools;
+package org.digibytej.tools;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.bitcoinj.core.listeners.*;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Peer;
-import org.bitcoinj.core.PeerGroup;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.net.discovery.DnsDiscovery;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.wallet.DefaultRiskAnalysis;
-import org.bitcoinj.wallet.RiskAnalysis.Result;
+import org.digibytej.core.listeners.*;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.Peer;
+import org.digibytej.core.PeerGroup;
+import org.digibytej.core.Transaction;
+import org.digibytej.net.discovery.DnsDiscovery;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.utils.BriefLogFormatter;
+import org.digibytej.wallet.DefaultRiskAnalysis;
+import org.digibytej.wallet.RiskAnalysis.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -15,50 +15,50 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.store;
+package org.digibytej.store;
 
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Block;
-import org.bitcoinj.core.BlockChain;
-import org.bitcoinj.core.BlockTest;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.Context;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.PeerAddress;
-import org.bitcoinj.core.Sha256Hash;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.Transaction.Purpose;
-import org.bitcoinj.core.TransactionConfidence;
-import org.bitcoinj.core.TransactionConfidence.ConfidenceType;
-import org.bitcoinj.core.TransactionInput;
-import org.bitcoinj.core.Utils;
-import org.bitcoinj.crypto.DeterministicKey;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.UnitTestParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.script.ScriptBuilder;
-import org.bitcoinj.testing.FakeTxBuilder;
-import org.bitcoinj.testing.FooWalletExtension;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.utils.Threading;
-import org.bitcoinj.wallet.DeterministicKeyChain;
-import org.bitcoinj.wallet.KeyChain;
-import org.bitcoinj.wallet.KeyChainGroup;
+import org.digibytej.core.Address;
+import org.digibytej.core.Block;
+import org.digibytej.core.BlockChain;
+import org.digibytej.core.BlockTest;
+import org.digibytej.core.Coin;
+import org.digibytej.core.Context;
+import org.digibytej.core.ECKey;
+import org.digibytej.core.LegacyAddress;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.PeerAddress;
+import org.digibytej.core.Sha256Hash;
+import org.digibytej.core.Transaction;
+import org.digibytej.core.Transaction.Purpose;
+import org.digibytej.core.TransactionConfidence;
+import org.digibytej.core.TransactionConfidence.ConfidenceType;
+import org.digibytej.core.TransactionInput;
+import org.digibytej.core.Utils;
+import org.digibytej.crypto.DeterministicKey;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.UnitTestParams;
+import org.digibytej.script.Script;
+import org.digibytej.script.ScriptBuilder;
+import org.digibytej.testing.FakeTxBuilder;
+import org.digibytej.testing.FooWalletExtension;
+import org.digibytej.utils.BriefLogFormatter;
+import org.digibytej.utils.Threading;
+import org.digibytej.wallet.DeterministicKeyChain;
+import org.digibytej.wallet.KeyChain;
+import org.digibytej.wallet.KeyChainGroup;
 
 import com.google.common.io.ByteStreams;
 import com.google.protobuf.ByteString;
 
-import org.bitcoinj.wallet.MarriedKeyChain;
-import org.bitcoinj.wallet.Protos;
-import org.bitcoinj.wallet.UnreadableWalletException;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.WalletExtension;
-import org.bitcoinj.wallet.WalletProtobufSerializer;
-import org.bitcoinj.wallet.WalletTransaction;
-import org.bitcoinj.wallet.WalletTransaction.Pool;
-import org.bitcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.digibytej.wallet.MarriedKeyChain;
+import org.digibytej.wallet.Protos;
+import org.digibytej.wallet.UnreadableWalletException;
+import org.digibytej.wallet.Wallet;
+import org.digibytej.wallet.WalletExtension;
+import org.digibytej.wallet.WalletProtobufSerializer;
+import org.digibytej.wallet.WalletTransaction;
+import org.digibytej.wallet.WalletTransaction.Pool;
+import org.digibytej.wallet.listeners.WalletCoinsReceivedEventListener;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -72,8 +72,8 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.Set;
 
-import static org.bitcoinj.core.Coin.*;
-import static org.bitcoinj.testing.FakeTxBuilder.createFakeTx;
+import static org.digibytej.core.Coin.*;
+import static org.digibytej.testing.FakeTxBuilder.createFakeTx;
 import static org.junit.Assert.*;
 import static com.google.common.base.Preconditions.checkNotNull;
 

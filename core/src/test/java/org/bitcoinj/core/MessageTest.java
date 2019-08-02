@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
-import org.bitcoinj.params.UnitTestParams;
+import org.digibytej.params.UnitTestParams;
 import org.junit.Test;
 
 public class MessageTest {

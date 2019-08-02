@@ -15,24 +15,24 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.InsufficientMoneyException;
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.TransactionConfidence;
-import org.bitcoinj.crypto.KeyCrypterException;
-import org.bitcoinj.kits.WalletAppKit;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.RegTestParams;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.wallet.SendRequest;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.digibytej.core.Address;
+import org.digibytej.core.Coin;
+import org.digibytej.core.InsufficientMoneyException;
+import org.digibytej.core.LegacyAddress;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.Transaction;
+import org.digibytej.core.TransactionConfidence;
+import org.digibytej.crypto.KeyCrypterException;
+import org.digibytej.kits.WalletAppKit;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.RegTestParams;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.utils.BriefLogFormatter;
+import org.digibytej.wallet.SendRequest;
+import org.digibytej.wallet.Wallet;
+import org.digibytej.wallet.listeners.WalletCoinsReceivedEventListener;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;

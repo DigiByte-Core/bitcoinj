@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
-import org.bitcoinj.params.MainNetParams;
+import org.digibytej.params.MainNetParams;
 import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -26,7 +26,7 @@ import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 
-import static org.bitcoinj.core.Utils.HEX;
+import static org.digibytej.core.Utils.HEX;
 import static org.junit.Assert.*;
 
 public class BitcoinSerializerTest {

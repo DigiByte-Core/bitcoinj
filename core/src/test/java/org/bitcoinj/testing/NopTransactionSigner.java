@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.testing;
+package org.digibytej.testing;
 
-import org.bitcoinj.signers.TransactionSigner;
-import org.bitcoinj.wallet.KeyBag;
+import org.digibytej.signers.TransactionSigner;
+import org.digibytej.wallet.KeyBag;
 
 public class NopTransactionSigner implements TransactionSigner {
     private boolean isReady;

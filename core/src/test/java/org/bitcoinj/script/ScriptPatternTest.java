@@ -16,16 +16,16 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.script;
+package org.digibytej.script;
 
 import com.google.common.collect.Lists;
 
-import org.bitcoinj.core.ECKey;
+import org.digibytej.core.ECKey;
 import org.junit.Test;
 
 import java.util.List;
 
-import static org.bitcoinj.script.ScriptOpCodes.OP_CHECKMULTISIG;
+import static org.digibytej.script.ScriptOpCodes.OP_CHECKMULTISIG;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 

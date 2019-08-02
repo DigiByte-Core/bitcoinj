@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import com.google.common.io.ByteStreams;
 
-import org.bitcoinj.core.AbstractBlockChain.NewBlockType;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.params.UnitTestParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.script.ScriptOpCodes;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.Wallet.BalanceType;
+import org.digibytej.core.AbstractBlockChain.NewBlockType;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.params.UnitTestParams;
+import org.digibytej.script.Script;
+import org.digibytej.script.ScriptOpCodes;
+import org.digibytej.wallet.Wallet;
+import org.digibytej.wallet.Wallet.BalanceType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -40,7 +40,7 @@ import java.util.EnumSet;
 import java.util.List;
 
 import static org.junit.Assert.*;
-import static org.bitcoinj.core.Utils.HEX;
+import static org.digibytej.core.Utils.HEX;
 
 public class BlockTest {
     private static final NetworkParameters TESTNET = TestNet3Params.get();

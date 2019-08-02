@@ -15,17 +15,17 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import nl.jqno.equalsverifier.EqualsVerifier;
 import nl.jqno.equalsverifier.Warning;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.Networks;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.script.ScriptBuilder;
-import org.bitcoinj.script.ScriptPattern;
-import org.bitcoinj.script.Script.ScriptType;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.Networks;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.script.Script;
+import org.digibytej.script.ScriptBuilder;
+import org.digibytej.script.ScriptPattern;
+import org.digibytej.script.Script.ScriptType;
 import org.junit.Test;
 
 import java.io.BufferedReader;
@@ -37,7 +37,7 @@ import java.io.ObjectOutputStream;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.bitcoinj.core.Utils.HEX;
+import static org.digibytej.core.Utils.HEX;
 import static org.junit.Assert.*;
 
 public class LegacyAddressTest {

@@ -14,30 +14,30 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.testing;
+package org.digibytej.testing;
 
-import org.bitcoinj.core.AbstractBlockChain;
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Block;
-import org.bitcoinj.core.BlockChain;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.Context;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.VerificationException;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.UnitTestParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.store.BlockStore;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.wallet.Wallet;
+import org.digibytej.core.AbstractBlockChain;
+import org.digibytej.core.Address;
+import org.digibytej.core.Block;
+import org.digibytej.core.BlockChain;
+import org.digibytej.core.Coin;
+import org.digibytej.core.Context;
+import org.digibytej.core.ECKey;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.Transaction;
+import org.digibytej.core.VerificationException;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.UnitTestParams;
+import org.digibytej.script.Script;
+import org.digibytej.store.BlockStore;
+import org.digibytej.store.MemoryBlockStore;
+import org.digibytej.utils.BriefLogFormatter;
+import org.digibytej.wallet.Wallet;
 
 import javax.annotation.Nullable;
 
-import static org.bitcoinj.testing.FakeTxBuilder.createFakeBlock;
-import static org.bitcoinj.testing.FakeTxBuilder.createFakeTx;
+import static org.digibytej.testing.FakeTxBuilder.createFakeBlock;
+import static org.digibytej.testing.FakeTxBuilder.createFakeTx;
 
 // TODO: This needs to be somewhat rewritten - the "sendMoneyToWallet" methods aren't sending via the block chain object
 

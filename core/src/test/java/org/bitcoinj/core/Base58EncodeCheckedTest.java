@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

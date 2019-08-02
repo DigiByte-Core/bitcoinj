@@ -15,21 +15,21 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Base58;
-import org.bitcoinj.core.BlockChain;
-import org.bitcoinj.core.DumpedPrivateKey;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.PeerAddress;
-import org.bitcoinj.core.PeerGroup;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.wallet.Wallet;
+import org.digibytej.core.Address;
+import org.digibytej.core.Base58;
+import org.digibytej.core.BlockChain;
+import org.digibytej.core.DumpedPrivateKey;
+import org.digibytej.core.ECKey;
+import org.digibytej.core.LegacyAddress;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.PeerAddress;
+import org.digibytej.core.PeerGroup;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.script.Script;
+import org.digibytej.store.MemoryBlockStore;
+import org.digibytej.wallet.Wallet;
 
 import java.math.BigInteger;
 import java.net.InetAddress;

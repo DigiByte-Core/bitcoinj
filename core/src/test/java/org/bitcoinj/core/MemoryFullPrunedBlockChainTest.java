@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
-import org.bitcoinj.store.BlockStoreException;
-import org.bitcoinj.store.FullPrunedBlockStore;
-import org.bitcoinj.store.MemoryFullPrunedBlockStore;
+import org.digibytej.store.BlockStoreException;
+import org.digibytej.store.FullPrunedBlockStore;
+import org.digibytej.store.MemoryFullPrunedBlockStore;
 
 /**
  * A MemoryStore implementation of the FullPrunedBlockStoreTest

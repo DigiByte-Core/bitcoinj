@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.crypto;
+package org.digibytej.crypto;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.bitcoinj.core.Utils.HEX;
+import static org.digibytej.core.Utils.HEX;
 
 public class HDUtilsTest {
     @Test

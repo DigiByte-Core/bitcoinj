@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.wallet;
+package org.digibytej.wallet;
 
-import org.bitcoinj.core.BloomFilter;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.Utils;
-import org.bitcoinj.crypto.KeyCrypter;
-import org.bitcoinj.crypto.KeyCrypterException;
-import org.bitcoinj.crypto.KeyCrypterScrypt;
-import org.bitcoinj.utils.Threading;
+import org.digibytej.core.BloomFilter;
+import org.digibytej.core.ECKey;
+import org.digibytej.core.Utils;
+import org.digibytej.crypto.KeyCrypter;
+import org.digibytej.crypto.KeyCrypterException;
+import org.digibytej.crypto.KeyCrypterScrypt;
+import org.digibytej.utils.Threading;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 
-import org.bitcoinj.wallet.BasicKeyChain;
-import org.bitcoinj.wallet.KeyChain;
-import org.bitcoinj.wallet.Protos;
-import org.bitcoinj.wallet.listeners.AbstractKeyChainEventListener;
+import org.digibytej.wallet.BasicKeyChain;
+import org.digibytej.wallet.KeyChain;
+import org.digibytej.wallet.Protos;
+import org.digibytej.wallet.listeners.AbstractKeyChainEventListener;
 import org.junit.Before;
 import org.junit.Test;
 

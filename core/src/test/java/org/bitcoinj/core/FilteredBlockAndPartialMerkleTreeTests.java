@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
-import org.bitcoinj.core.TransactionConfidence.*;
-import org.bitcoinj.store.*;
-import org.bitcoinj.testing.*;
-import org.bitcoinj.wallet.*;
+import org.digibytej.core.TransactionConfidence.*;
+import org.digibytej.store.*;
+import org.digibytej.testing.*;
+import org.digibytej.wallet.*;
 import org.junit.*;
 import org.junit.runner.*;
 import org.junit.runners.*;
@@ -30,7 +30,7 @@ import java.io.OutputStream;
 import java.math.*;
 import java.util.*;
 
-import static org.bitcoinj.core.Utils.*;
+import static org.digibytej.core.Utils.*;
 import static org.junit.Assert.*;
 
 @RunWith(value = Parameterized.class)

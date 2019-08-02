@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.utils;
+package org.digibytej.utils;
 
 import com.google.protobuf.ByteString;
 import org.junit.Before;

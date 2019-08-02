@@ -9,6 +9,7 @@ version = '0.16-SNAPSHOT'
 
 dependencies {
     compile 'org.bouncycastle:bcprov-jdk15on:1.60'
+    implementation 'com.lambdaworks:scrypt:1.4.0'
     implementation 'com.google.guava:guava:27.1-android'
     compile 'com.google.protobuf:protobuf-java:3.7.1'
     implementation 'com.squareup.okhttp3:okhttp:3.12.3'
@@ -37,16 +38,16 @@ protobuf {
 }
 
 test {
-    exclude 'org/bitcoinj/core/PeerTest*'
-    exclude 'org/bitcoinj/core/TransactionBroadcastTest*'
-    exclude 'org/bitcoinj/net/discovery/DnsDiscoveryTest*'
+    exclude 'org/digibytej/core/PeerTest*'
+    exclude 'org/digibytej/core/TransactionBroadcastTest*'
+    exclude 'org/digibytej/net/discovery/DnsDiscoveryTest*'
     testLogging {
         events "failed"
         exceptionFormat "full"
     }
 }
 
-ext.moduleName = 'org.bitcoinj.core'
+ext.moduleName = 'org.digibytej.core'
 
 jar {
     inputs.property("moduleName", moduleName)

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import com.google.common.collect.ImmutableList;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.script.ScriptBuilder;
-import org.bitcoinj.script.ScriptPattern;
-import org.bitcoinj.testing.TestWithWallet;
-import org.bitcoinj.wallet.SendRequest;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.script.Script;
+import org.digibytej.script.ScriptBuilder;
+import org.digibytej.script.ScriptPattern;
+import org.digibytej.testing.TestWithWallet;
+import org.digibytej.wallet.SendRequest;
 import org.hamcrest.CoreMatchers;
 import org.junit.After;
 import org.junit.Before;

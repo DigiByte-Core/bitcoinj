@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
-import org.bitcoinj.store.BlockStoreException;
-import org.bitcoinj.store.FullPrunedBlockStore;
-import org.bitcoinj.store.PostgresFullPrunedBlockStore;
+import org.digibytej.store.BlockStoreException;
+import org.digibytej.store.FullPrunedBlockStore;
+import org.digibytej.store.PostgresFullPrunedBlockStore;
 import org.junit.After;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -32,8 +32,8 @@ public class PostgresFullPrunedBlockChainTest extends AbstractFullPrunedBlockCha
     // Replace these with your postgres location/credentials and remove @Ignore to test
     // You can set up a fresh postgres with the command: create user bitcoinj superuser password 'password';
     private static final String DB_HOSTNAME = "localhost";
-    private static final String DB_NAME = "bitcoinj_test";
-    private static final String DB_USERNAME = "bitcoinj";
+    private static final String DB_NAME = "digibytej_test";
+    private static final String DB_USERNAME = "digibytej";
     private static final String DB_PASSWORD = "password";
     private static final String DB_SCHEMA = "blockstore_schema";
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.testing;
+package org.digibytej.testing;
 
-import org.bitcoinj.core.*;
-import org.bitcoinj.utils.Threading;
-import org.bitcoinj.wallet.Wallet;
+import org.digibytej.core.*;
+import org.digibytej.utils.Threading;
+import org.digibytej.wallet.Wallet;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;

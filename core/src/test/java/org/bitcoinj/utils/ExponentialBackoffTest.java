@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.utils;
+package org.digibytej.utils;
 
-import org.bitcoinj.core.Utils;
+import org.digibytej.core.Utils;
 
 import org.junit.Before;
 import org.junit.Test;

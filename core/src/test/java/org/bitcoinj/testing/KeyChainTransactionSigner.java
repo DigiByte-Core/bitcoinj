@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.testing;
+package org.digibytej.testing;
 
-import org.bitcoinj.core.Sha256Hash;
-import org.bitcoinj.crypto.ChildNumber;
-import org.bitcoinj.crypto.DeterministicKey;
-import org.bitcoinj.signers.CustomTransactionSigner;
-import org.bitcoinj.wallet.DeterministicKeyChain;
+import org.digibytej.core.Sha256Hash;
+import org.digibytej.crypto.ChildNumber;
+import org.digibytej.crypto.DeterministicKey;
+import org.digibytej.signers.CustomTransactionSigner;
+import org.digibytej.wallet.DeterministicKeyChain;
 import com.google.common.collect.ImmutableList;
 
 import java.util.List;

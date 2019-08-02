@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.crypto;
+package org.digibytej.crypto;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -23,8 +23,8 @@ import static org.junit.Assert.fail;
 
 import java.math.BigInteger;
 
-import org.bitcoinj.core.Utils;
-import org.bitcoinj.crypto.HDKeyDerivation.PublicDeriveMode;
+import org.digibytej.core.Utils;
+import org.digibytej.crypto.HDKeyDerivation.PublicDeriveMode;
 import org.bouncycastle.crypto.params.KeyParameter;
 import org.junit.Test;
 

@@ -15,22 +15,22 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.wallet;
+package org.digibytej.wallet;
 
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.BloomFilter;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Sha256Hash;
-import org.bitcoinj.core.Utils;
-import org.bitcoinj.crypto.*;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.UnitTestParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.utils.Threading;
-import org.bitcoinj.wallet.listeners.AbstractKeyChainEventListener;
+import org.digibytej.core.Address;
+import org.digibytej.core.BloomFilter;
+import org.digibytej.core.ECKey;
+import org.digibytej.core.LegacyAddress;
+import org.digibytej.core.NetworkParameters;
+import org.digibytej.core.Sha256Hash;
+import org.digibytej.core.Utils;
+import org.digibytej.crypto.*;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.UnitTestParams;
+import org.digibytej.script.Script;
+import org.digibytej.utils.BriefLogFormatter;
+import org.digibytej.utils.Threading;
+import org.digibytej.wallet.listeners.AbstractKeyChainEventListener;
 
 import com.google.common.base.Joiner;
 import com.google.common.collect.ImmutableList;

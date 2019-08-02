@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.tools;
+package org.digibytej.tools;
 
-import org.bitcoinj.crypto.TrustStoreLoader;
-import org.bitcoinj.protocols.payments.PaymentProtocol;
-import org.bitcoinj.protocols.payments.PaymentProtocolException;
-import org.bitcoinj.protocols.payments.PaymentSession;
-import org.bitcoinj.uri.BitcoinURI;
-import org.bitcoinj.uri.BitcoinURIParseException;
+import org.digibytej.crypto.TrustStoreLoader;
+import org.digibytej.protocols.payments.PaymentProtocol;
+import org.digibytej.protocols.payments.PaymentProtocolException;
+import org.digibytej.protocols.payments.PaymentSession;
+import org.digibytej.uri.BitcoinURI;
+import org.digibytej.uri.BitcoinURIParseException;
 import org.bitcoin.protocols.payments.Protos;
 
 import java.io.FileInputStream;

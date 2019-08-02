@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
 import java.util.List;
 
-import org.bitcoinj.params.UnitTestParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.script.ScriptBuilder;
-import org.bitcoinj.testing.FakeTxBuilder;
-import org.bitcoinj.wallet.AllowUnconfirmedCoinSelector;
-import org.bitcoinj.wallet.SendRequest;
-import org.bitcoinj.wallet.Wallet;
+import org.digibytej.params.UnitTestParams;
+import org.digibytej.script.Script;
+import org.digibytej.script.ScriptBuilder;
+import org.digibytej.testing.FakeTxBuilder;
+import org.digibytej.wallet.AllowUnconfirmedCoinSelector;
+import org.digibytej.wallet.SendRequest;
+import org.digibytej.wallet.Wallet;
 import org.junit.Test;
 
 import com.google.common.collect.Lists;

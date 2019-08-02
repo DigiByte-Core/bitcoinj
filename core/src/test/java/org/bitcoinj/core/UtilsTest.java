@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import java.math.BigInteger;
 import java.util.Arrays;

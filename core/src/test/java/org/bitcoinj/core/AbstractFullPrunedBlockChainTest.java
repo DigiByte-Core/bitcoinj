@@ -15,19 +15,19 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.core;
+package org.digibytej.core;
 
 import com.google.common.collect.Lists;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.UnitTestParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.store.BlockStoreException;
-import org.bitcoinj.store.FullPrunedBlockStore;
-import org.bitcoinj.utils.BlockFileLoader;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.wallet.SendRequest;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.WalletTransaction;
+import org.digibytej.params.MainNetParams;
+import org.digibytej.params.UnitTestParams;
+import org.digibytej.script.Script;
+import org.digibytej.store.BlockStoreException;
+import org.digibytej.store.FullPrunedBlockStore;
+import org.digibytej.utils.BlockFileLoader;
+import org.digibytej.utils.BriefLogFormatter;
+import org.digibytej.wallet.SendRequest;
+import org.digibytej.wallet.Wallet;
+import org.digibytej.wallet.WalletTransaction;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -38,7 +38,7 @@ import java.lang.ref.WeakReference;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.bitcoinj.core.Coin.FIFTY_COINS;
+import static org.digibytej.core.Coin.FIFTY_COINS;
 import static org.junit.Assert.*;
 import org.junit.rules.ExpectedException;
 

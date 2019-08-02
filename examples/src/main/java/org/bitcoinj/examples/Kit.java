@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.digibytej.examples;
 
-import org.bitcoinj.core.*;
-import org.bitcoinj.kits.WalletAppKit;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.listeners.KeyChainEventListener;
-import org.bitcoinj.wallet.listeners.ScriptsChangeEventListener;
-import org.bitcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
-import org.bitcoinj.wallet.listeners.WalletCoinsSentEventListener;
+import org.digibytej.core.*;
+import org.digibytej.kits.WalletAppKit;
+import org.digibytej.params.TestNet3Params;
+import org.digibytej.script.Script;
+import org.digibytej.wallet.Wallet;
+import org.digibytej.wallet.listeners.KeyChainEventListener;
+import org.digibytej.wallet.listeners.ScriptsChangeEventListener;
+import org.digibytej.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.digibytej.wallet.listeners.WalletCoinsSentEventListener;
 
 import java.io.File;
 import java.util.List;
 
-import org.bitcoinj.core.listeners.TransactionConfidenceEventListener;
+import org.digibytej.core.listeners.TransactionConfidenceEventListener;
 
 /**
  * The following example shows how to use the by bitcoinj provided WalletAppKit.

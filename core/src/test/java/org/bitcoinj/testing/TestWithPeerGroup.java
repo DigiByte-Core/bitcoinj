@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.testing;
+package org.digibytej.testing;
 
 import com.google.common.base.*;
 import com.google.common.util.concurrent.*;
-import org.bitcoinj.core.*;
-import org.bitcoinj.net.*;
-import org.bitcoinj.store.*;
-import org.bitcoinj.utils.*;
+import org.digibytej.core.*;
+import org.digibytej.net.*;
+import org.digibytej.store.*;
+import org.digibytej.utils.*;
 
 import java.net.*;
 import java.util.concurrent.*;

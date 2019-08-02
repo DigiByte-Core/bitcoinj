@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.utils;
+package org.digibytej.utils;
 
-import org.bitcoinj.core.Utils;
+import org.digibytej.core.Utils;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -31,7 +31,7 @@ public class AppDataDirectoryTest {
 
     @Test
     public void worksOnCurrentPlatform() {
-        final String appName = "bitcoinj";
+        final String appName = "digibytej";
         String path = AppDataDirectory.get(appName).toString();
         if (Utils.isWindows()) {
             assertEquals("Path wrong on Mac", winPath(appName), path);
